@@ -21,7 +21,7 @@ There are two methods available, 1st one being the simpler one
     ```shell
     python -m pip install git+https://github.com/ps011/automated-pull-request
     ```
-2. Directly Download the Github Package, execute the following command inside the downloaded folder:
+2. Directly Download the [Github Package](https://github.com/ps011/automated-pull-request), execute the following command inside the downloaded folder:
 
     ```shell
     pip install .
@@ -44,7 +44,7 @@ Download the [Generic Webhook Plugin](https://plugins.jenkins.io/generic-webhook
 Add a Post content parameter during the setup above with
 
 ```
-Variable       :   payload
+Variable     :   payload
 Expression   :   $
 ```
 
