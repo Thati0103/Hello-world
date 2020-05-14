@@ -27,7 +27,7 @@ There are two methods available, 1st one being the simpler one
     pip install .
     ```
 
-You can check the correct installation by executing following command:
+You can check the correct installation by executing following command in your terminal:
 
 	 pr_automate
 
