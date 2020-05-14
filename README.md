@@ -18,15 +18,14 @@ There are two methods available, 1st one being the simpler one
 
 1. Directly Installing the Github Package with pip:
 
-	```shell
-    python -m pip install git+https://github.com/ps011/automated-pull-     request
-```
-2. Directly Download the Github Package ,
-execute the following command inside the downloaded folder:
+    ```shell
+    python -m pip install git+https://github.com/ps011/automated-pull-request
+    ```
+2. Directly Download the Github Package, execute the following command inside the downloaded folder:
 
-	```shell
-pip install .
-```
+    ```shell
+    pip install .
+    ```
 
 You can check the correct installation by executing following command:
 
