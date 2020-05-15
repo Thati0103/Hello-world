@@ -3,8 +3,10 @@
 Automate your Pull Request checks.
 It does all your basic rule checks like :
 
-- (should add the rules)
-- 
+- PR should not contain large changes(more than 10 files).
+- LOC in a file should not be more than 1000.
+- Description should be added in a PR.
+- check if the test folder is modified/ new tests should be added when source code is changed.
 
 ## Getting Started
 
@@ -54,26 +56,6 @@ After configuring the plugin, just add the following line to your shell/batch sc
 pr_automate
 ```
 
-you should be seeing comments with warnings on future pull requests in that repo like this:
-
-(Add some png's  here)
-
-## Built With
-
-(add something here if you want.) 
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+you should be seeing comments with warnings on future pull requests in that repo.
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
