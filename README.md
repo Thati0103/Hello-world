@@ -6,7 +6,7 @@ It does all your basic rule checks like :
 - Description should be added in a PR.
 - LOC in a file should not be more than 1000.
 - PR should not contain large changes(more than 10 files).
-- Commented code should not be committed.
+- Commits with only commented code should be discouraged.
 - check if the test folder is modified/ new tests should be added when source code is changed.
 
 ## Getting Started
