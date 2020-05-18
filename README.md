@@ -3,9 +3,10 @@
 Automate your Pull Request checks.
 It does all your basic rule checks like :
 
-- PR should not contain large changes(more than 10 files).
-- LOC in a file should not be more than 1000.
 - Description should be added in a PR.
+- LOC in a file should not be more than 1000.
+- PR should not contain large changes(more than 10 files).
+- Commented code should not be committed.
 - check if the test folder is modified/ new tests should be added when source code is changed.
 
 ## Getting Started
@@ -56,6 +57,7 @@ After configuring the plugin, just add the following line to your shell/batch sc
 pr_automate
 ```
 
-you should be seeing comments with warnings on future pull requests in that repo.
+you should be seeing comments with warnings on future pull requests in that repo like this:
+![gif](./github_2_edited.gif)
 
 
