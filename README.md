@@ -11,11 +11,7 @@ It does all your basic rule checks like :
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
 
 There are two methods available, 1st one being the simpler one
 
@@ -24,7 +20,7 @@ There are two methods available, 1st one being the simpler one
     ```shell
     python -m pip install git+https://github.com/ps011/automated-pull-request
     ```
-2. Directly Download the [Github Package](https://github.com/ps011/automated-pull-request), execute the following command inside the downloaded folder:
+2. Directly Download the [Github Package](https://github.com/ps011/automated-pull-request), execute the following command inside the folder pr_automate, containing setup.py file:
 
     ```shell
     pip install .
